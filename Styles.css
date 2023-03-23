@@ -1,0 +1,298 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: rgba(255, 248, 240, 1);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto 48px auto;
+    height: 600px;
+}
+
+#hero-text {
+    width: 50%;
+    padding: 32px 20px 32px 200px;
+}
+
+#intro {
+    margin-top: 52px;
+    color: #291854;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+#hero-Image {
+    width: 50%;
+
+}
+
+#contact-button {
+    width: 138px;
+    height: 44px;
+    left: 190px;
+    top: 456px;
+    color: white;
+    background: #2F2F2F;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+#image {
+    width: 100%;
+    height: 600px;
+    width: 710px;
+    left: 729.9996337890625px;
+    top: 0.000030517578125px;
+    border-radius: [object Object]px;
+    object-fit: cover;
+
+}
+
+#PROJECTS {
+
+    max-width: 1060px;
+    margin: 96px auto;
+    text-align: center;
+
+}
+
+#WHAT-I-DO {
+
+    max-width: 1060px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+
+
+h1 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #190D37;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+h2 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: black;
+
+}
+
+.bigtext {
+    color: #331E6A;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.bigtext-2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin: 8px auto;
+    max-width: 686px;
+    color: #190D37;
+}
+
+.name-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: black;
+
+}
+
+.small-blue-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: rgba(40, 88, 255, 1);
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+#about-experience {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#job-boxes {
+    display: flex;
+    margin-top: 48px;
+
+}
+
+.job-box {
+    width: 340px;
+    margin-right: 20px;
+
+}
+
+.job-card {
+    background-color: white;
+    box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 291px;
+}
+
+.role {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+    margin: 0px 20px 8px 20px;
+    padding-top: 8px;
+}
+
+.role-context {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+
+    color: #55206D;
+    margin: 0 auto;
+    height: 216px;
+    padding: 8px;
+
+}
+
+.project-box {
+    display: flex;
+    margin-top: 48px;
+}
+
+
+
+.project-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+    /* identical to box height */
+
+
+    color: #291854;
+}
+
+.project-content
+{
+    width: 880px;
+    margin-left: 20px;
+    padding-top: 5px;
+
+}
+.project-description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    float: left;
+    /* or 150% */
+    text-align: left;
+    margin-top: 8px;
+      
+
+
+    color: #55206D;
+}
+
+.project-pic {
+    width: 160px;
+    height: 160px;
+    background: #19ACFF;
+    border-radius: 10px;
+}
+
+.project-link
+{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+margin-top: 10px;
+
+
+color: #6A87A3;
+}
+
+.link-box
+{
+    float: left;
+}
+
+.big-heading
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 72px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+padding: 44px;
+}
+
+#FOOTER
+{
+ 
+background: #000000;
+text-align: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+padding: 20px;
+}
